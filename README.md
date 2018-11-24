@@ -2,6 +2,14 @@
 
 > SE100 HW3
 
+ ## View built porj on [XM_Node](https://wxm99.github.io/XM_Note/)
+
+The page above is built through 
+
+```bash
+$ npm run install
+```
+
 ## Build Setup
 
 ``` bash
@@ -28,4 +36,3 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
