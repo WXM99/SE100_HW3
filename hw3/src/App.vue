@@ -1,23 +1,26 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div id="app" style="min-height: 100%">
+    <fix></fix>
   </div>
 </template>
 
 <script>
+import fix from './components/fix.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    fix
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #2c5032;
+  margin-top: 0px;
+  height: 100%;
 }
 </style>

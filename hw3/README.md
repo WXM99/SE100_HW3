@@ -1,6 +1,6 @@
-# hw3
+# temage
 
-> A Vue.js project
+> front-end part for se_100 and intel swc.
 
 ## Build Setup
 
