@@ -1,7 +1,7 @@
 <template>
 <div>
     <Col span = '8' offset='6'>
-    <Card>
+    <Card class='create-eve'>
         <h1> 创建新的事件 </h1>
         <hr><br>
         <h2> 事件名称 </h2>
@@ -30,6 +30,7 @@ export default {
   name: 'workspace',
   data () {
     return {
+        numEv: 0,
         value1: '',
         value2: '',
         value3: '',
@@ -45,6 +46,7 @@ export default {
               st: 0
           }
           eventBus.$emit('ne', newEvent)
+          numEv += 1
           console.log(newEvent)
       }
   }
