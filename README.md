@@ -2,6 +2,10 @@
 
 > SE100 HW3
 
+## View built proj at [XM Note](https://wxm99.github.io/XM_Note/)
+
+The page above is generated through ```npm run build```.
+
 ## Build Setup
 
 ``` bash
