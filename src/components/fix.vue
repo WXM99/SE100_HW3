@@ -83,8 +83,8 @@
 }
 </style>
 <template>
-  <div class="layout">
-    <Layout>
+  <div class="layout" style='min-height: 100%'>
+    <Layout >
       <Header class='topbar'>
         <Menu mode="horizontal" theme="dark" active-name="1" class='topbar'>
           <Row>
