@@ -83,7 +83,7 @@
 }
 </style>
 <template>
-  <div class="layout" style="height:100%;">
+  <div class="layout">
     <Layout>
       <Header class='topbar'>
         <Menu mode="horizontal" theme="dark" active-name="1" class='topbar'>
@@ -123,7 +123,7 @@
                       <Icon type="ios-navigate"></Icon>
                       我的事件
                     </template>
-                    <MenuItem name="1-1"> <div  @click ='showCon'>控制台 </div></MenuItem>
+                    <MenuItem name="1-1"> <div  @click ='showCon'  class = 'menu-title'>控制台 </div></MenuItem>
                   </Submenu>
                   <Submenu name="2">
                     <template slot="title">

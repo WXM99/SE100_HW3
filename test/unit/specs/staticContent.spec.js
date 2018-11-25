@@ -1,15 +1,17 @@
 import Vue from 'vue'
-import newEvent from '@/components/inline_page/create'
+import fixed from '@/components/fix'
 
-describe('create.vue', () => {
-    it('创建Event Object测试', () => {
-      const Constructor = Vue.extend(newEvent)
+describe('fix.vue', () => {
+    it('Topbar静态内容测试', () => {
+      const Constructor = Vue.extend(fixed)
       const vm = new Constructor().$mount()
-      const createBtn = vm.$el.querySelector('Button')
-      const clickEvent = new window.Event('click')
-      createBtn.dispatchEvent(clickEvent)
-      vm._watcher.run()
-      expect(vm.$el.querySelector('.create-eve h1').textContent)
-        .toEqual(' 创建新的事件 ')
+      expect(vm.$el.querySelector('.layout-logo p').textContent)
+        .toEqual('XM_Note')
+    })
+    it('sidebar静态内容测试', () => {
+      const Constructor = Vue.extend(fixed)
+      const vm = new Constructor().$mount()
+      expect(vm.$el.querySelector('.menu-title').textContent)
+        .toEqual('控制台 ')
     })
   })
