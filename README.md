@@ -2,13 +2,9 @@
 
 > SE100 HW3
 
- ## View built porj on [XM_Node](https://wxm99.github.io/XM_Note/)
+## View built proj at [XM Note](https://wxm99.github.io/XM_Note/)
 
-The page above is built through 
-
-```bash
-$ npm run install
-```
+The page above is generated through ```npm run build```.
 
 ## Build Setup
 
@@ -34,5 +30,13 @@ npm run e2e
 # run all tests
 npm test
 ```
+
+## Test
+
+```bash
+$ npm run test
+```
+
+
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
